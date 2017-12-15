@@ -21,6 +21,18 @@ minima:
 #header_pages:
 # - about.html
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+
 # Build settings
 markdown: kramdown
 theme: minima
