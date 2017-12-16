@@ -1,12 +1,12 @@
 title: "CS Melange"
-author: 
+author:
   name: varshaneya
   email: "varshaneya.v@gmail.com"
   url: "https://varshaneya.github.io/"
 description: A compilation of my observations and views on various topics in computer science.
 
 #twitter_username: jekyllrb
-github_username:  varshaneya
+github_username: varshaneya
 baseurl: /
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
