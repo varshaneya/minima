@@ -4,7 +4,7 @@ email:
 description: "Musings on machine learning, high performance computing, image processing and system software."
 baseurl: ""
 url: "http://varshaneya.github.io"
-#twitter_username: karpathy
+linkedin_username: varshaneya
 github_username:  varshaneya
 
 # Build settings
