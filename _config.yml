@@ -1,23 +1,22 @@
-title: "CS Melange"
-author:
-  name: varshaneya
-  email: "varshaneya.v@gmail.com"
-  url: "https://varshaneya.github.io/"
+title: Milieu
 description: A compilation of my observations and views on various topics in computer science.
+url: "https://varshaneya.github.io/"
+github_username:  varshaneya
+author:
+  name: "Varshaneya"
+  #email: "hello@jacoporabolini.com"
+  url: "https://github.com/varshaneya/"
 
-#twitter_username: jekyllrb
-github_username: varshaneya
-baseurl: /
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: pretty
+paginate: 8
+paginate_path: /page:num/
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.html
-
+# Default values
 defaults:
   -
     scope:
@@ -30,9 +29,28 @@ defaults:
 gems:
   - jekyll-paginate
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: true
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
 theme: minima
 exclude:
   - Gemfile
