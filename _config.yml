@@ -3,11 +3,11 @@ title: CS Melange
 email: "varshaneya.v@gmail.com"
 author: varshaneya
 description: "Cocktail of articles from various disciplines of Computer Science"
-full_description: >
-"The articles published in this blog are from a variety areas in computer science. The areas include machine learning,
- high performance computing, image processing, system software and Unix. All of them have code written by me.
- I have also provided the links to the appropriate GitHub repository. You are free to use the code only for academic
- purposes after giving credits and citiations. I have also mentioned the references that I have used in all the articles."
+full_description: > "The articles published in this blog are from a variety areas in computer science. The areas include machine learning,
+                    high performance computing, image processing, system software and Unix. All of them have code written by me.
+                    I have also provided the links to the appropriate GitHub repository. You are free to use the code only for academic
+                    purposes after giving credits and citiations. I have also mentioned the references that I have used in all the articles."
+
 categories: [Machine Learning, High Performance Computing, System Software, Unix]
 baseurl: ""
 url: "http://varshaneya.github.io"
