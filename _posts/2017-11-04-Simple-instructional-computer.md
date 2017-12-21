@@ -1,6 +1,7 @@
 ---
 title: Assembler for Simple Instruction Computer
 layout: page
+categories: "System Software"
 ---
 
 Simple Instructional Computer a.k.a SIC, was created by Leland L Beck for the system software course. This machine is a prototype of a general purpose computer. There is an extended version for SIC called the SIC/XE with XE standing for eXtra Equipment. SIC/XE has a larger address space, larger instruction set, variety of addressing modes and instructions formats. SIC/XE has backward compatibility with SIC ISA. 
