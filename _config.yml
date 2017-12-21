@@ -9,7 +9,7 @@ full_description: >
  appropriate GitHub repositories. You are free to use my code only for academic purposes after giving me credits.
  I have also mentioned the references that I have used in all the articles.
  
-categories: [Machine Learning, High Performance Computing, System Software, Unix]
+categories: ["Machine Learning", "High Performance Computing", "System Software", "Unix"]
 baseurl: ""
 url: "http://varshaneya.github.io"
 linkedin_username: varshaneya
