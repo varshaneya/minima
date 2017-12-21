@@ -7,10 +7,9 @@ layout: default
   {{ content }}
 
   <h1 class="page-heading">Articles</h1>
-  
-  <ul class="post-list">
     {% for cat in site.categories %}
     <h2> {{cat}} </h2>
+    <ul class="post-list">
     {% for post in site.posts %}
     {% if post.categories == cat}
       <li>
