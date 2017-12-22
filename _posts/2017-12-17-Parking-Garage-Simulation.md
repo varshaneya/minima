@@ -1,4 +1,9 @@
-## Simulation of parking garage using Monte Carlo method
+---
+title: Simulation of parking garage using Monte Carlo method
+layout: page
+category: 'High performance computing'
+author: varshaneya
+---
 
 ### Problem statement
 
