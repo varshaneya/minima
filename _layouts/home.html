@@ -7,9 +7,9 @@ layout: default
   {{ content }}
 
   <h1 class="page-heading">Articles</h1>
-    {% for cat in site.categories %}
-    <h2> {{cat}} </h2>
     <ul class="post-list">
+     {% for cat in site.categories %}
+     <h2> {{cat}} </h2>
     {% for post in site.posts %}
     {% if post.categories == cat}
       <li>
@@ -21,6 +21,6 @@ layout: default
       </li>
     {% endif %}
     {% endfor %}
-    </ul>
     {% endfor %}
+    </ul>
 </div>
