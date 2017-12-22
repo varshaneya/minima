@@ -1,6 +1,6 @@
 ---
 title: Assembler for Simple Instruction Computer
-layout: page
+layout: post
 categories: 'System Software'
 author: varshaneya
 ---
