@@ -40,7 +40,3 @@ Code is available at my github repository [high-performance-computing](https://g
 ### References
 
 *Parallel programming in C with MPI and OpenMP*, by Michael J Quinn
-
-### Comments
-
-Comments, bugs and issues for this post can be raised [here](https://github.com/varshaneya/high-performance-computing/issues).
