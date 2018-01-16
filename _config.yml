@@ -4,10 +4,12 @@ email: "varshaneya.v@gmail.com"
 author: varshaneya
 description: "A compilation of articles from various disciplines of Computer Science"
 full_description: > 
- The articles published in this blog are from a variety areas like  machine learning, high performance computing, 
- image processing, system software and Unix. All of them have code written by me.  I have also provided the links to 
- appropriate GitHub repositories. You are free to use my code only for academic purposes after giving me credits.
- I have also mentioned the references that I have used in all the articles.
+ The articles published in this blog are from a variety areas like machine learning, high performance computing, 
+ image processing, system software and Unix.
+ 
+disclaimer: >
+ All of the articles have code written by me and have also provided the links to appropriate GitHub repositories. You are free to use my code only for academic purposes after giving appropriate credits.
+ I have also mentioned the references that is used in all the articles.
  
 categories: ["Machine Learning", "High Performance Computing", "System Software", "Misc"]
 baseurl: ""
