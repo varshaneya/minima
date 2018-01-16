@@ -8,7 +8,7 @@ full_description: >
  image processing, system software and Unix.
  
 disclaimer: >
- All of the articles have code written by me and have also provided the links to appropriate GitHub repositories. You are free to use my code only for academic purposes after giving appropriate credits.
+ All of the articles have code written by me with links to appropriate GitHub repositories. You are free to use my code only for academic purposes after giving appropriate credits.
  I have also mentioned the references that is used in all the articles.
  
 categories: ["Machine Learning", "High Performance Computing", "System Software", "Misc"]
