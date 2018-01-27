@@ -6,7 +6,7 @@ layout: default
 
   {{ content }}
 
-  <h1 class="page-heading">Articles</h1>
+  <h1 class="page-heading">High Performance Computing</h1>
   <ul class="post-list">
   {% assign posts = site.posts | where: 'category', 'High performance computing' %}
     
@@ -17,7 +17,23 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        <p><span class="post-meta">{{ post.category}}</span></p>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <br>
+  
+   <h1 class="page-heading">System Software</h1>
+  <ul class="post-list">
+  {% assign posts = site.posts | where: 'category', 'System Software' %}
+    
+    {% for post in posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
       </li>
     {% endfor %}
   </ul>
