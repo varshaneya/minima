@@ -8,7 +8,9 @@ layout: default
 
   <h1 class="page-heading">Articles</h1>
   <ul class="post-list">
-    {% for post in site.posts %}
+  {% assign posts = site.posts | where: 'category', 'High performance computing' %}
+    
+    {% for post in posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
