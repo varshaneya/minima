@@ -2,9 +2,7 @@
 title: CS Melange
 email: "varshaneya.v@gmail.com"
 author: varshaneya
-description: "A compilation of articles from various disciplines of Computer Science"
-full_description: > 
- I write articles on various topics under the sun from machine learning, high performance computing,image processing, system software and Unix.
+description: "A compilation of my thoughts and observations on various disciplines of Computer Science."
  
 disclaimer: >
  All of the articles have code written by me with links to appropriate GitHub repositories. You are free to use my code for academic purposes only after giving appropriate credits.
