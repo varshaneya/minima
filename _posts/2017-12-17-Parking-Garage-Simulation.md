@@ -1,7 +1,7 @@
 ---
 title: Simulation of parking garage using Monte Carlo method
 layout: page
-category: 'High performance computing'
+category: 'High Performance Computing'
 author: varshaneya
 ---
 
