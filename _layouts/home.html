@@ -4,12 +4,11 @@ layout: default
 
 <div class="home">
  
-  <ul class="post-list">
-  {% for category in site.categories %}
+  {{ content }}
 
-  <h1 class="page-heading">{{category}}</h1>
-  
-  {% assign posts = site.posts | where: 'category', category %}
+  <h1 class="page-heading">High Performance Computing</h1>
+  <ul class="post-list">
+  {% assign posts = site.posts | where: 'category', 'High Performance Computing' %}
     
     {% for post in posts %}
       <li>
@@ -20,7 +19,7 @@ layout: default
         </h2>
       </li>
     {% endfor %}
+    </ul>
   <br>
   {% endfor %}
-  </ul>
 </div>  
