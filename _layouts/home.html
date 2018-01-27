@@ -6,10 +6,11 @@ layout: default
 
   {{ content }}
   
+  <ul class="post-list">
   {% for category in site.categories %}
 
   <h1 class="page-heading">{{category}}</h1>
-  <ul class="post-list">
+  
   {% assign posts = site.posts | where: 'category', category %}
     
     {% for post in posts %}
@@ -21,8 +22,7 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul>
-  
   <br>
   {% endfor %}
+  </ul>
 </div>  
