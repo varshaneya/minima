@@ -1,7 +1,7 @@
 ---
 title: Assembler for Simple Instruction Computer
 layout: page
-category: 'Miscellany'
+category: 'Misc'
 author: varshaneya
 ---
 
