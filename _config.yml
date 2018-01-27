@@ -6,9 +6,9 @@ description: "A compilation of my thoughts and observations on various disciplin
  
 disclaimer: >
  All of the articles have code written by me with links to appropriate GitHub repositories. You are free to use my code for academic purposes only after giving appropriate credits.
- I have also mentioned the references that is used in all the articles.
+ I have also mentioned the reference(s) that is(are) used in all the articles.
  
-categories: ["Machine Learning", "High Performance Computing", "Computer Vision", "Misc"]
+categories: ["High Performance Computing", "Misc"]
 baseurl: ""
 url: "http://varshaneya.github.io"
 linkedin_username: varshaneya
